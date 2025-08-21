@@ -43,7 +43,6 @@
       <td align="center"><a href="https://github.com/kkhhjjoo"><img src="https://avatars.githubusercontent.com/u/94750692?v=4" width="100px;" alt=""/><br /><sub><b>김현주</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/tjwngml"><img src="https://avatars.githubusercontent.com/u/226293705?v=4" width="100px;" alt=""/><br /><sub><b>서주희</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/sohyerim-dev"><img src="https://avatars.githubusercontent.com/u/226252533?v=4" width="100px;" alt=""/><br /><sub><b>소혜림</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/rawonax"><img src="https://avatars.githubusercontent.com/u/197349476?v=4" width="100px;" alt=""/><br /><sub><b>박제나</b></sub></a><br /></td>
      </tr>
   </tbody>
 </table>
