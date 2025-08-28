@@ -202,7 +202,7 @@ HTTP통신의 흐름을 이해하기 위해 _텔넷_ 실습을 해보았다.
 
 <br>
 
-<img src = "images/http.png">
+<img src = "..\images\http.png">
 
 <br>
 
@@ -210,7 +210,7 @@ HTTP통신의 흐름을 이해하기 위해 _텔넷_ 실습을 해보았다.
 
 <br>
 
-<img src = "images/localhost3000.png">
+<img src = ..\images\localhost3000.png">
 
 <br>
 
@@ -218,7 +218,7 @@ HTTP통신의 흐름을 이해하기 위해 _텔넷_ 실습을 해보았다.
 
 결과는 다음과 같다.
 
-<img src="images/telent_connected.png">
+<img src="..\images\telent_connected.png">
 
 <br>
 
@@ -226,7 +226,9 @@ HTTP통신의 흐름을 이해하기 위해 _텔넷_ 실습을 해보았다.
 
 <br>
 
-<img src="images\telnet_disconnected.png">
+<img src="../images/telnet_disconnected.png">
+
+<!-- 연결 끊김 이미지 삽입 -->">
 
 <!-- 연결 끊김 이미지 삽입 -->
 
