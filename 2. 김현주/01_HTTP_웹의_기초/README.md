@@ -17,7 +17,7 @@
 
 - 클라이언트(웹브라우저)가 HTTP 요청을 서버에 보냄
 - 서버가 요청된 데이터를 HTTP 응답으로 돌려줌
-- 예시: www.oreilly.com 접속 과정 설명
+- 예시: www.google.com 접속 과정 설명
 
 #### HTTP 통신의 기본 흐름
 
@@ -34,7 +34,7 @@
 > HTTP
 
 > GET /tools.html HTTP/1.1
-> Host: www.joes-hardware.com
+> Host: www.google.com
 
 - HTTP 응답 수신: 서버는 요청을 처리한 후, 상태 코드(예: 200 OK)와 함께 요청한 웹페이지의 HTML 데이터를 응답 메시지로 보냅니다.
 
