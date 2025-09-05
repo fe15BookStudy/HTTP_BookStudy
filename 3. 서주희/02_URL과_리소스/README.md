@@ -50,8 +50,7 @@ HTTP 명세에서는 URI를 더 일반화된 개념의 리소스 식별자로 �
 
 <br>
 
-- URL의 호스트와 포트 컴포넌트는 소스를 호스팅하고 있는 장
-  비와 그 장비 내에서 리소스에 접근할 수 있는 서버가 어디에 있는지 두 가지 정보를 제공해준다.
+- URL의 호스트와 포트 컴포넌트는 소스를 호스팅하고 있는 장비와 그 장비 내에서 리소스에 접근할 수 있는 서버가 어디에 있는지 두 가지 정보를 제공해준다.
 
 호스트 컴포넌트는 접근하려고 하는 리소스를 가지고 있는 인터넷상의 호스트
 장비를 가리킨다.
@@ -70,13 +69,13 @@ HTTP 명세에서는 URI를 더 일반화된 개념의 리소스 식별자로 �
 - FTP 서버는 자신이 가지고 있는 데이터에 접근을 허용하기 전에 사용자 이름과 비밀번호를 요구하는 좋은 예다.
 
 ```
-tp://ftp.prep.ai.mit.edu/pub/gnu
+ftp://ftp.prep.ai.mit.edu/pub/gnu
 ftp://anonymous@ftp.prep.ai.mit.edu/pub/gnu
 ftp://anonymous:my_passwd@ftp.prep.ai.mit.edu/pub/gnu
 http://joe:joespasswd@www.joes-hardware.com/sales_info.txt
 ```
 
-위의 예를 보면, 기본 형식: URL은 scheme://username:password@host/path 형식으로 사용자 인증 정보를 포함할 수 있다.
+위의 예를 보면, 기본 형식: URL은  scheme://[username[:password]@]host[:port]/path 형식으로 사용자 인증 정보를 포함할 수 있다.
 
 인증 정보 생략 시: 사용자 이름과 비밀번호가 URL에 없을 경우, 애플리케이션은 기본값을 자동으로 사용한다. 예를 들어 FTP 접속 시 사용자 이름은 보통 'anonymous'로 설정되며 비밀번호는 브라우저마다 다른 기본값(예: 크롬의 경우 chrome@example.com)이 사용된다.
 
