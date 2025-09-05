@@ -70,9 +70,22 @@ HTTP 명세에서는 URI를 더 일반화된 개념의 리소스 식별자로 �
 
 ```
 ftp://ftp.prep.ai.mit.edu/pub/gnu
+
+// 스킴 : ftp, 사용자 이름, 비밀번호 없음. 서버 주소 : ftp.prep.ai.mit.edu, 경로 : /pub/gnu
+
+
 ftp://anonymous@ftp.prep.ai.mit.edu/pub/gnu
+
+// 스킴 :ftp, 사용자 이름 : anonymous , 비밀번호 : 없음, 서버 주소 : ftp.prep.ai.mit.edu , 경로 : /pub/gnu
+
 ftp://anonymous:my_passwd@ftp.prep.ai.mit.edu/pub/gnu
+
+// 스킴 :ftp , 사용자 이름 :anonymous , 비밀번호 : my_password , 서버 주소 :  ftp.prep.ai.mit.edu , 경로 : /pub/gnu
+
 http://joe:joespasswd@www.joes-hardware.com/sales_info.txt
+
+// 스킴 : http : , 사용자 이름 : joe , 비밀번호 : joepasswd , 서버 주소 : www.joes-hardware.com , 경로 : /sales_info.txt
+
 ```
 
 위의 예를 보면, 기본 형식: URL은  scheme://[username[:password]@]host[:port]/path 형식으로 사용자 인증 정보를 포함할 수 있다.
