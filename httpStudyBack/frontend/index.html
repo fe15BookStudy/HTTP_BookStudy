@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP 스터디 API 테스트</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <h1>📝 Post API 테스트 페이지</h1>
+      <p>
+        API 기본 주소: <strong><span id="api-base-url"></span></strong>
+      </p>
+
+      <div class="api-section">
+        <h2>1. 모든 게시글 조회 (GET)</h2>
+        <button id="get-all-btn">요청 보내기</button>
+      </div>
+
+      <div class="api-section">
+        <h2>2. 특정 게시글 조회 (GET by ID)</h2>
+        <input type="text" id="get-id" placeholder="조회할 게시글 ID를 입력하세요" />
+        <button id="get-by-id-btn">요청 보내기</button>
+      </div>
+
+      <div class="api-section">
+        <h2>3. 게시글 생성 (POST)</h2>
+        <input type="text" id="post-title" placeholder="제목" />
+        <input type="text" id="post-content" placeholder="내용" />
+        <button id="create-btn">생성하기</button>
+      </div>
+
+      <div class="api-section">
+        <h2>4. 게시글 수정 (PUT by ID)</h2>
+        <input type="text" id="put-id" placeholder="수정할 게시글 ID" />
+        <input type="text" id="put-title" placeholder="새로운 제목" />
+        <input type="text" id="put-content" placeholder="새로운 내용" />
+        <button id="update-btn">수정하기</button>
+      </div>
+
+      <div class="api-section">
+        <h2>5. 게시글 삭제 (DELETE by ID)</h2>
+        <input type="text" id="delete-id" placeholder="삭제할 게시글 ID" />
+        <button id="delete-btn">삭제하기</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="api.js"></script>
+</html>

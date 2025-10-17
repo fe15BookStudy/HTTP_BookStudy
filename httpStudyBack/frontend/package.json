@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "live-server . --port=8090 --host=localhost --no-browser"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
